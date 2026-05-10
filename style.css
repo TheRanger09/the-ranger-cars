@@ -56,5 +56,38 @@ header p {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
+  }nav {
+  text-align: center;
+  margin: 10px;
+}
+
+nav a {
+  margin: 5px;
+  padding: 8px 12px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background: cyan;
+  color: black;
+}
+
+.content {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card {
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  background: #222;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  text-decoration: none;
+}
 }
