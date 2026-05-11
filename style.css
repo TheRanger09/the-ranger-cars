@@ -1,7 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #0f172a, #111827);
+  background:
+    radial-gradient(circle at top left, #0ea5e9 0%, transparent 25%),
+    radial-gradient(circle at bottom right, #9333ea 0%, transparent 25%),
+    linear-gradient(to bottom, #020617, #0f172a);
   color: white;
 }
 
