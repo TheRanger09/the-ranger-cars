@@ -1,61 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cars Collection</title>
+  <title>Cars - The Ranger</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-  <h1>🚗 Cars Collection</h1>
-
+  <div class="logo">The Ranger</div>
   <nav>
     <a href="index.html">Home</a>
     <a href="cars.html">Cars</a>
-    <a href="blog.html">Blogs</a>
-    <a href="about.html">About</a>
   </nav>
 </header>
 
 <section class="cars">
 
-  <a href="bugatti.html" class="card">
-    <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1200&auto=format&fit=crop">
+  <div class="card" onclick="showCar('bugatti')">
+    <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b">
+    <h2>Bugatti Chiron</h2>
+  </div>
 
-    <div class="card-content">
-      <h2>Bugatti Chiron</h2>
-      <p>1500 HP hypercar with incredible top speed.</p>
-    </div>
-  </a>
+  <div class="card" onclick="showCar('gtr')">
+    <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6">
+    <h2>Nissan GT-R</h2>
+  </div>
 
-  <a href="gtr.html" class="card">
-   <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=1200&auto=format&fit=crop" alt="Nissan GT-R">
-    <div class="card-content">
-      <h2>Nissan GT-R</h2>
-      <p>The legendary Godzilla with twin turbo power.</p>
-    </div>
-  </a>
+  <div class="card" onclick="showCar('lambo')">
+    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
+    <h2>Lamborghini Aventador</h2>
+  </div>
 
-  <a href="lamborghini.html" class="card">
-    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop">
-
-    <div class="card-content">
-      <h2>Lamborghini Aventador</h2>
-      <p>A naturally aspirated V12 supercar beast.</p>
-    </div>
-  </a>
-
- <a href="ferrari.html" class="card">
-    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop">
-
-    <div class="card-content">
-      <h2>Ferrari SF90</h2>
-      <p>Hybrid Ferrari delivering insane performance.</p>
-    </div>
-  </a>
+  <div class="card" onclick="showCar('ferrari')">
+    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
+    <h2>Ferrari SF90</h2>
+  </div>
 
 </section>
 
+<section class="info-box" id="carInfo">
+  <h2>Car Info</h2>
+  <p>Click a car to see details here.</p>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
