@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
-  --bg:#0b1120;
-  --bg2:#111827;
-  --card:#1f2937;
-  --text:#f9fafb;
-  --muted:#9ca3af;
-  --accent:#3b82f6;
+  --bg:#0b0b0b;
+  --bg2:#1a1a1a;
+  --card:#111;
+  --text:#ffffff;
+  --accent:#ff0000;
+  --accent2:#ffffff;
 }
+
+/* LIGHT MODE */
 .light-mode{
-  --bg:#f3f4f6;
-  --bg2:#ffffff;
+  --bg:#ffffff;
+  --bg2:#eaf2ff;
   --card:#ffffff;
-  --text:#111827;
-  --muted:#4b5563;
+  --text:#000000;
   --accent:#2563eb;
+  --accent2:#ffffff;
 }
 *{
   box-sizing:border-box;
