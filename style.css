@@ -28,6 +28,18 @@ header p {
   color: #d1d5db;
 }
 
+/*HERO SECTION*/
+.hero{
+  text-allign: cener;
+  padding: 80px 20px;
+}
+.hero h1{
+  font size: 60px;
+}
+.hero p {
+  font size: 20px;
+  color: #cbd5e1 ;
+}
 /* NAVBAR */
 nav {
   margin-top: 20px;
