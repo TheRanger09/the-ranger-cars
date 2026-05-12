@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
-  --bg:#020617;
-  --bg2:#0f172a;
-  --card:#111827;
-  --text:#ffffff;
-  --muted:#cbd5e1;
-  --accent:#06b6d4;
-  --accent2:#8b5cf6;
+  --bg:#0b1120;
+  --bg2:#111827;
+  --card:#1f2937;
+  --text:#f9fafb;
+  --muted:#9ca3af;
+  --accent:#3b82f6;
 }
 .light-mode{
-  --bg:#f8fafc;
-  --bg2:#e2e8f0;
+  --bg:#f3f4f6;
+  --bg2:#ffffff;
   --card:#ffffff;
-  --text:#0f172a;
-  --muted:#475569;
+  --text:#111827;
+  --muted:#4b5563;
   --accent:#2563eb;
-  --accent2:#7c3aed;
 }
 *{
   box-sizing:border-box;
@@ -49,13 +47,10 @@ header{
 
 .logo{
   font-family:'Orbitron',sans-serif;
-  font-size:42px;
+  font-size:38px;
   font-weight:700;
-  letter-spacing:4px;
-  background:linear-gradient(to right,#38bdf8,#8b5cf6);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  text-shadow:0 0 25px rgba(56,189,248,0.4);
+  letter-spacing:3px;
+  color:white;
 }
 
 nav a{
@@ -86,7 +81,7 @@ nav a:hover{
   height:90vh;
   background-image:
   linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-  url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1600&auto=format&fit=crop');
+  url('https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=1600&auto=format&fit=crop');
   background-size:cover;
   background-position:center;
   display:flex;
@@ -98,12 +93,10 @@ nav a:hover{
 }
 
 .hero-content h1{
-  font-size:70px;
+  font-size:72px;
   margin-bottom:20px;
   font-family:'Orbitron',sans-serif;
-  background:linear-gradient(to right,var(--accent),var(--accent2));
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  color:white;
 }
 
 .hero-content p{
@@ -163,8 +156,7 @@ nav a:hover{
 }
 
 .card:hover{
-  transform:translateY(-10px);
-  box-shadow:0 0 30px rgba(56,189,248,0.5);
+  transform:translateY(-8px);
 }
 
 .card img{
