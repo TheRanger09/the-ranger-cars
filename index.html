@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>The Ranger Cars</title>
+  <title>The Ranger</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>🚗 The Ranger Cars</h1>
-  <p>Luxury • Performance • Supercars</p>
+
+  <div class="logo">THE RANGER</div>
 
   <nav>
     <a href="index.html">Home</a>
@@ -17,84 +18,52 @@
     <a href="blog.html">Blogs</a>
     <a href="about.html">About</a>
   </nav>
+
+  <button class="theme-btn" onclick="toggleTheme()">
+    Light / Dark
+  </button>
+
 </header>
-  
+
 <section class="hero">
 
-  <div class="hero-overlay">
+  <div class="hero-content">
 
-    <h1>The Ranger</h1>
+    <h1>Future of Supercars</h1>
 
     <p>
-      Explore the world of luxury and performance cars.
+      Explore luxury, performance and the world's most iconic supercars.
     </p>
+
+    <a href="cars.html" class="hero-btn">
+      Explore Cars
+    </a>
 
   </div>
 
 </section>
-  
+
 <section class="content">
 
-  <h2>Welcome to The Ranger Cars</h2>
+  <h2>Welcome to The Ranger</h2>
 
   <p>
-    The Ranger Cars is a supercar-themed website where you can explore some of the
-    world's most powerful and iconic cars. From the incredible Bugatti Chiron to the
-    legendary Nissan GT-R and the aggressive Lamborghini Aventador, this website is
-    built for every car enthusiast.
+    The Ranger is a futuristic supercar website focused on speed, design,
+    technology and performance. Explore legendary vehicles including the
+    Nissan GT-R, Bugatti Chiron, Lamborghini Aventador and Ferrari SF90.
   </p>
-
-  <p>
-    Discover top speeds, engines, horsepower figures and interesting facts about
-    modern performance cars. This website is designed with a professional dark theme,
-    smooth layouts and modern styling inspired by real automotive websites.
-  </p>
-
-</section>
-
-<section class="cars">
-
-  <!-- BUGATTI -->
-  <a href="bugatti.html" class="card">
-    <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1200&auto=format&fit=crop" alt="Bugatti">
-    
-    <div class="card-content">
-      <h2>Bugatti Chiron</h2>
-      <p>
-        One of the fastest production cars ever built with a top speed of 420 km/h.
-      </p>
-    </div>
-  </a>
-
-  <!-- GTR -->
-  <a href="gtr.html" class="card">
-   <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=1200&auto=format&fit=crop" alt="Nissan GT-R">
-    
-    <div class="card-content">
-      <h2>Nissan GT-R</h2>
-      <p>
-        The legendary Godzilla known for its incredible tuning potential and power.
-      </p>
-    </div>
-  </a>
-
-  <!-- LAMBO -->
-  <a href="lamborghini.html" class="card">
-    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop" alt="Lamborghini">
-    
-    <div class="card-content">
-      <h2>Lamborghini Aventador</h2>
-      <p>
-        A naturally aspirated V12 monster with an aggressive design and insane sound.
-      </p>
-    </div>
-  </a>
 
 </section>
 
 <footer>
-  © 2026 The Ranger Cars • Supercar Showcase Website
+  © 2026 THE RANGER
 </footer>
+
+<script>
+function toggleTheme(){
+  document.body.classList.toggle("light-mode");
+}
+</script>
 
 </body>
 </html>
