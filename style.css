@@ -30,15 +30,40 @@ header p {
 
 /*HERO SECTION*/
 .hero{
-  text-allign: cener;
-  padding: 80px 20px;
+  text-allign: center;
+  padding: 120px 20px;
 }
 .hero h1{
-  font size: 60px;
+  font size: 70px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, cyan, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 .hero p {
-  font size: 20px;
+  font size: 22px;
   color: #cbd5e1 ;
+  max width: 700px
+  margin: auto;
+  line-height: 1.8;
+}
+  /*HERO BUTTON*/
+  .hero-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 28px;
+    border radius: 30px;
+    text decoration: none;
+    color: white;
+    background: linear-gradient(to
+right, cyan, #9333ea):
+transition: 0.3s;
+    font-weight;bolld:;
+  }
+.hero btn:hover{
+  transfor: scale(1.08);
+  box-shadow; 0 0 25px cyan;
 }
 /* NAVBAR */
 nav {
