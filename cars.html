@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Cars</title>
   <link rel="stylesheet" href="style.css">
@@ -8,7 +9,8 @@
 <body>
 
 <header>
-  <h1>Cars</h1>
+
+  <div class="logo">THE RANGER</div>
 
   <nav>
     <a href="index.html">Home</a>
@@ -16,33 +18,66 @@
     <a href="blog.html">Blogs</a>
     <a href="about.html">About</a>
   </nav>
+
 </header>
 
-<section class="cars">
+<section class="content">
 
-  <div class="card" onclick="showCar('bugatti')">
-    <h2>Bugatti</h2>
-    <p>Click for info</p>
-  </div>
+<h1>Cars Collection</h1>
 
-  <div class="card" onclick="showCar('gtr')">
-    <h2>Nissan GT-R</h2>
-    <p>Click for info</p>
-  </div>
+<div class="cars">
 
-  <div class="card" onclick="showCar('lambo')">
-    <h2>Lamborghini</h2>
-    <p>Click for info</p>
-  </div>
+<a href="bugatti.html" class="card">
+
+<img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h2>Bugatti Chiron</h2>
+<p>1500 HP hypercar with extreme speed and luxury.</p>
+</div>
+
+</a>
+
+<a href="gtr.html" class="card">
+
+<img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h2>Nissan GT-R</h2>
+<p>The legendary Godzilla with twin turbo performance.</p>
+</div>
+
+</a>
+
+<a href="lamborghini.html" class="card">
+
+<img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h2>Lamborghini Aventador</h2>
+<p>Iconic naturally aspirated V12 supercar.</p>
+</div>
+
+</a>
+
+<a href="ferrari.html" class="card">
+
+<img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h2>Ferrari SF90</h2>
+<p>Hybrid Ferrari with futuristic performance.</p>
+</div>
+
+</a>
+
+</div>
 
 </section>
 
-<section class="info" id="infoBox">
-  <h2>Info</h2>
-  <p>Click any car</p>
-</section>
-
-<script src="script.js"></script>
+<footer>
+© 2026 THE RANGER
+</footer>
 
 </body>
 </html>
